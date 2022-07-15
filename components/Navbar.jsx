@@ -38,6 +38,16 @@ const Navbar = () => {
         </div>
         <div className={`right-nav ${ navActive ? "active" : ""}`}>
         <div className="menu">
+        <Link href={"/"}>
+          <a className="slider-logo" onClick={() => setActiveIdx(-1)}>
+          <Image
+          src={logo}
+          alt="Dawn Global"
+          width={166}
+          height={24}
+        />
+          </a>
+        </Link>
           <div className="nav-items">
           {MENU_LIST.map((menu, idx) => (
             <div
