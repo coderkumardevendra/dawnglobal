@@ -12,17 +12,24 @@
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
   background-color: #070A0F;
   font-family: 'Montserrat', sans-serif;
   color: #F0F0F0;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bg-gradient{
+  background: linear-gradient(63.34deg, #D891EA 20.59%, #20B0DF 65.09%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 header{
   border-bottom: 1px solid #37393D;
   padding: 0 15px;
+  background-color: #070A0F;
 }
 
 header .logo{
@@ -154,9 +161,9 @@ header .nav{
 .right-nav{display: flex;
   flex-direction: column;
   position: fixed;
-  width: 350px;
+  width: 340px;
   height: 100vh;
-  left: -350px;
+  left: -340px;
   top: 0;
   padding: 0 0 0 20px;
   row-gap: 16px;
