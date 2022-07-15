@@ -1,0 +1,23 @@
+.hero{
+    max-width: 1280px;
+    margin: 136px 70px 220px 70px;
+}
+
+.hero .hero-text{
+   padding-top: 104px;
+}
+
+.hero .hero-img{
+    text-align: right;
+}
+
+.hero h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 71px;
+    line-height: 84px;
+    letter-spacing: 0.04em;
+    color: #F0F0F0;
+}
+
