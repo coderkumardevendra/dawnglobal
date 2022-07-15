@@ -9,7 +9,10 @@ export const getHomepageTeam = async () => {
                 name
                 position
                 intro
-                profile_image
+                profile_image {
+                    id
+                }
+                
             }
         }
 

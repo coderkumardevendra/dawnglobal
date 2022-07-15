@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import {useQuery} from 'react-query'
-import {getHomepageTeam} from "../queries/queries";
 import Hero from '../components/Hero';
+import Team from '../components/Team';
 
 
 export default function Home() {
 
-  const {data: team, isSuccess} = useQuery("team", async () => await getHomepageTeam())
+  
   
   return (
     <div className={styles.container}>
@@ -34,6 +33,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero/>
+      <Team/>
     </div>
   )
 }

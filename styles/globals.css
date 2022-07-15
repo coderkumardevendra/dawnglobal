@@ -48,9 +48,13 @@ header .nav{
 }
 
 .slider-logo{
-  margin: 40px 0;
+  margin: 40px 0 16px 0;
   display: inline-block;
 
+}
+.px-70{
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .menu__icon {
